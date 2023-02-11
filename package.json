@@ -1,0 +1,28 @@
+{
+  "name": "well-known",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "gen": "node src/gen.js",
+    "register": "node src/register.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nc163/.well-known.git"
+  },
+  "author": "nc163 (https://twitter.com/nc163)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nc163/.well-known/issues"
+  },
+  "homepage": "https://github.com/nc163/.well-known#readme",
+  "dependencies": {
+    "did-jwt": "^6.11.0",
+    "dotenv": "^16.0.3",
+    "web-did-resolver": "^2.0.21"
+  }
+}
