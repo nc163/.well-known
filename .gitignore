@@ -1,0 +1,11 @@
+*.local
+.DS_Store
+.eslintcache
+.next
+.pnpm-debug.log*
+.ipfs
+cache
+coverage
+dist
+node_modules
+tsconfig.tsbuildinfo
