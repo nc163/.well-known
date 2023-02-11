@@ -1,0 +1,32 @@
+{
+  "@context": "https://w3.org/ns/did/v1",
+  "id": "",
+  "publicKey": [
+    {
+      "id": "",
+      "controller": "",
+      "type": "",
+      "publicKeyBase58": ""
+    }
+  ],
+  "authentication": [
+    ""
+  ],
+  "assertionMethod": [
+    ""
+  ],
+  "capabilityDelegation": [
+    ""
+  ],
+  "capabilityInvocation": [
+    ""
+  ],
+  "keyAgreement": [
+    {
+      "id": "",
+      "controller": "",
+      "type": "",
+      "publicKeyBase58": ""
+    }
+  ]
+}
