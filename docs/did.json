@@ -1,23 +1,23 @@
 {
     "@context": "https://www.w3.org/ns/did/v1",
-    "id": "did:web:nc163:nc163.github.io",
+    "id": "did:web:nc163.github.io:.well-known",
     "verificationMethod": [
       {
-        "id": "did:web:nc163:nc163.github.io#key1",
+        "id": "did:web:nc163.github.io:.well-known#key1",
         "type": "EcdsaSecp256k1VerificationKey2019",
-        "controller": "did:web:nc163:nc163.github.io",
+        "controller": "did:web:nc163.github.io:.well-known",
         "publicKeyJwk": {
           "kty": "EC",
-          "x": "5D7s5sXUJSxWFChkBf_u596NyHp5a5mxlcfzhVYypW8",
-          "y": "N6PKpD46J2yQ91Rp0oC4LJzLo80CpzxxpUPYCorqrDk",
+          "x": "YbGQAOLb2SqEAv8aWtj5JPAMACbJK_TJ-D-2wT2JsUs",
+          "y": "a_ZfVXbILbgDsxh2-dc9lZ9-81lGsz1JuXLEGQsclrY",
           "crv": "secp256k1"
         }
       }
     ],
     "authentication": [
-      "did:web:nc163:nc163.github.io#key1"
+      "did:web:nc163.github.io:.well-known#key1"
     ],
     "assertionMethod": [
-      "did:web:nc163:nc163.github.io#key1"
+      "did:web:nc163.github.io:.well-known#key1"
     ]
   }
