@@ -4,6 +4,7 @@
 .next
 .pnpm-debug.log*
 .ipfs
+.env
 cache
 coverage
 dist
