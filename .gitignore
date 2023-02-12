@@ -12,8 +12,7 @@ node_modules
 tsconfig.tsbuildinfo
 
 #docs
-./docs/*
-# !./docs/did.json!
+docs/did-*.json
 
 # key
-./keys/*
+keys/*
