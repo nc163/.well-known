@@ -29,10 +29,10 @@ did.id = id
 
 // verificationMethod (see: https://www.w3.org/TR/did-core/#verification-methods)
 {
-  const key0 = id + '#key-0';
+  const kid = id + '#key-0';
   const controller = id;
 
-  verificationMethod.id = key0
+  verificationMethod.id = kid
   verificationMethod.type = "JsonWebKey2020"
   // verificationMethod.type = "Ed25519VerificationKey2020" ???
   verificationMethod.controller = controller
@@ -46,9 +46,9 @@ did.id = id
   }
   did.verificationMethod.push(verificationMethod)
   
-  did.authentication.push(key0)
-  did.assertionMethod.push(key0)
-  // did.keyAgreement.push(key0)
+  did.authentication.push(kid)
+  did.assertionMethod.push(kid)
+  // did.keyAgreement.push(kid)
 }
 
 fs.writeFileSync(`./docs/did-${unixtime}.json`, JSON.stringify(did, null, 2));
