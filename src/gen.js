@@ -38,11 +38,11 @@ did.id = id
   verificationMethod.controller = controller
   switch(verificationMethod.type) {
     case "JsonWebKey2020":
-    verificationMethod.publicKeyJwk = jwkPublicKey
-    break;
+      verificationMethod.publicKeyJwk = jwkPublicKey
+      break;
     default:
-    console.log(`ERROR: unknown verificationMethod.type: ${verificationMethod.type}`)
-    process.exit(1)
+      console.log(`ERROR: unknown verificationMethod.type: ${verificationMethod.type}`)
+      process.exit(1)
   }
   did.verificationMethod.push(verificationMethod)
   
