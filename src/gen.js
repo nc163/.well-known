@@ -36,7 +36,14 @@ did.id = id
   verificationMethod.type = "JsonWebKey2020"
   // verificationMethod.type = "Ed25519VerificationKey2020" ???
   verificationMethod.controller = controller
-  verificationMethod.publicKeyJwk = jwkPublicKey
+  switch(verificationMethod.type) {
+    case "JsonWebKey2020":
+    verificationMethod.publicKeyJwk = jwkPublicKey
+    break;
+    default:
+    console.log(`ERROR: unknown verificationMethod.type: ${verificationMethod.type}`)
+    process.exit(1)
+  }
   did.verificationMethod.push(verificationMethod)
   
   did.authentication.push(key0)
