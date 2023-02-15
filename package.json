@@ -6,7 +6,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "gen": "node src/gen.js",
+    "create-polygon": "node src/create.js polygon",
+    "create-web": "node src/create.js web",
     "register": "node src/register.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +22,8 @@
   },
   "homepage": "https://github.com/nc163/.well-known#readme",
   "dependencies": {
+    "@ayanworks/polygon-did-registrar": "^0.0.15",
+    "@ethersproject/wallet": "^5.7.0",
     "did-jwt": "^6.11.0",
     "dotenv": "^16.0.3",
     "web-did-resolver": "^2.0.21"

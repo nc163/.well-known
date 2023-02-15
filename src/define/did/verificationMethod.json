@@ -1,10 +1,11 @@
 {
   "id": "",
   "type": "",
-  "controller": "",
+  "controller": [],
   "publicKeyJwk": {
     "kty": "",
     "crv": "",
     "x": ""
-  }
+  },
+  "publicKeyBase58": ""
 }
