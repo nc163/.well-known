@@ -30,3 +30,7 @@ https://github.com/did-twit/did-twit/blob/master/spec/index.md
 
 ### github
 https://github.com/decentralized-identity/github-did
+
+
+## profile
+https://identity.foundation/jwt-vc-presentation-profile/
