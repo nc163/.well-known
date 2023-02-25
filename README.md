@@ -1,12 +1,11 @@
 # memo
+example https://nc163.github.io/.well-known/did.json
+
+## did
+https://www.w3.org/TR/did-core/
 
 ## did docuent
-- https://nc163.github.io/.well-known/did.json
-
-
-##
-- https://learn.mattr.global/tutorials/dids/did-web
-
+https://www.w3.org/TR/did-spec-registries/
 
 ## did method
 https://www.w3.org/TR/did-core/
