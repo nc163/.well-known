@@ -4,6 +4,9 @@ example https://nc163.github.io/.well-known/did.json
 ## did
 https://www.w3.org/TR/did-core/
 
+## did Verifiable Credentials
+https://www.w3.org/TR/vc-data-model/
+
 ## did docuent
 https://www.w3.org/TR/did-spec-registries/
 
