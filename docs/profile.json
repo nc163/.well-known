@@ -1,0 +1,19 @@
+{
+  "@context": [
+    "https://w3id.org/openbadges/v2",
+    "https://w3id.org/blockcerts/3.0"
+  ],
+  "type": "Profile",
+  "id": "https://nc163.github.io/.well-known/profile.json",
+  "name": "nc163",
+  "description": "example.example.example.example.example.",
+  "email": "",
+  "url": "https://nc163.github.io/",
+  "publicKey": [
+    {
+      "id": "ecdsa-koblitz-pubkey:0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "created": "2023-03-08T17:19:10.982Z"
+    }
+  ],
+  "image": ""
+}

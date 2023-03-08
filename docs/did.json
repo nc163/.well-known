@@ -1,23 +1,26 @@
 {
-    "@context": "https://www.w3.org/ns/did/v1",
-    "id": "did:web:nc163.github.io:.well-known",
-    "verificationMethod": [
-      {
-        "id": "did:web:nc163.github.io:.well-known#key1",
-        "type": "EcdsaSecp256k1VerificationKey2019",
-        "controller": "did:web:nc163.github.io:.well-known",
-        "publicKeyJwk": {
-          "kty": "EC",
-          "x": "YbGQAOLb2SqEAv8aWtj5JPAMACbJK_TJ-D-2wT2JsUs",
-          "y": "a_ZfVXbILbgDsxh2-dc9lZ9-81lGsz1JuXLEGQsclrY",
-          "crv": "secp256k1"
-        }
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:web:nc163.github.io:.well-known",
+  "verificationMethod": [
+    {
+      "id": "#key-1",
+      "controller": "",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "publicKeyJwk": {
+        "crv": "K-256",
+        "x": "gxhTW1QQXUp6rmDAj8RflocYG0_fxiW9GnU_pzl_7XU",
+        "y": "NUfxHKhpZkby86ywjjEBavrCPmMMXRH1n2H-9XsNKqU",
+        "kty": "EC"
       }
-    ],
-    "authentication": [
-      "did:web:nc163.github.io:.well-known#key1"
-    ],
-    "assertionMethod": [
-      "did:web:nc163.github.io:.well-known#key1"
-    ]
-  }
+    }
+  ],
+  "service": [
+    {
+      "id": "#issuer-profile",
+      "type": "IssuerProfile",
+      "serviceEndpoint": "https://nc163.github.io/.well-known/profile.json"
+    }
+  ]
+}

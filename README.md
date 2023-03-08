@@ -1,5 +1,17 @@
-# memo
-example https://nc163.github.io/.well-known/did.json
+**色々実験用のリポジトリです**
+
+hardhatのデフォルトアカウント #0
+- ethereum address: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+- private key: ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
+
+did.jsonとprifle.jsonを公開してます.
+- [did.json](https://nc163.github.io/.well-known/did.json)
+- [profile.json](https://nc163.github.io/.well-known/profile.json)
+
+
+# 以下メモ
+
+
 
 ## did
 https://www.w3.org/TR/did-core/
