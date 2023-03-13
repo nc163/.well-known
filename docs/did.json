@@ -1,26 +1,15 @@
 {
   "@context": [
-    "https://www.w3.org/ns/did/v1"
+    "https://w3id.org/openbadges/v2",
+    "https://w3id.org/blockcerts/v3"
   ],
-  "id": "did:web:nc163.github.io:.well-known",
-  "verificationMethod": [
+  "id": "https://nc163.github.io/.well-known/profile.json",
+  "type": "Profile",
+  "name": "example issuer",
+  "publicKey": [
     {
-      "id": "#key-1",
-      "controller": "",
-      "type": "EcdsaSecp256k1VerificationKey2019",
-      "publicKeyJwk": {
-        "crv": "K-256",
-        "x": "gxhTW1QQXUp6rmDAj8RflocYG0_fxiW9GnU_pzl_7XU",
-        "y": "NUfxHKhpZkby86ywjjEBavrCPmMMXRH1n2H-9XsNKqU",
-        "kty": "EC"
-      }
-    }
-  ],
-  "service": [
-    {
-      "id": "#issuer-profile",
-      "type": "IssuerProfile",
-      "serviceEndpoint": "https://nc163.github.io/.well-known/profile.json"
+      "id": "ecdsa-koblitz-pubkey:0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "created": "2023-03-13T11:41:07.174Z"
     }
   ]
 }
